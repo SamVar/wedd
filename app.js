@@ -1,6 +1,6 @@
 function weddDay() {
 	let result = document.getElementById("result");
-	let randomNumber = Math.floor(Math.random() * 5);
+	let randomNumber = Math.floor(Math.random() * 4);
 	var day = 0;
 	var month = "";
 	var text = "";
@@ -14,13 +14,10 @@ function weddDay() {
 	} else if (randomNumber == 2) {
 		day = 8;
 		month = "July";
-	} else if (randomNumber == 3) {
+	} else (randomNumber == 3) {
 		day = 15;
 		month = "July";
-	} else {
-		day = 22;
-		month = "July";
-	}
+	
 
 	result.style.color = "blue";
 	result.style.fontSize = "1.5rem";
