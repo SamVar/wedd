@@ -14,11 +14,10 @@ function weddDay() {
 	} else if (randomNumber == 2) {
 		day = 8;
 		month = "July";
-	} else (randomNumber == 3) {
+	} else if (randomNumber == 3) {
 		day = 15;
 		month = "July";
-	
-
+	} 
 	result.style.color = "blue";
 	result.style.fontSize = "1.5rem";
 	result.innerHTML = text = "Your Wedding Day is on " + month + " " + day;
