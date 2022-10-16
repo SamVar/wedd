@@ -1,9 +1,14 @@
+let result = document.getElementById("result");
+let tries = document.getElementById("count");
+var count = 0;
+
 function weddDay() {
-	let result = document.getElementById("result");
+	count++;
 	let randomNumber = Math.floor(Math.random() * 5);
 	var day = 0;
 	var month = "";
 	var text = "";
+	var date = "";
 
 	if (randomNumber == 0) {
 		day = 10;
@@ -22,11 +27,22 @@ function weddDay() {
 		month = "July";
 	}
 
+	date = month + " " + day;
+
+	text = "Your Wedding Day is on " + date;
 	result.style.color = "blue";
 	result.style.fontSize = "1.5rem";
-	result.innerHTML = text = "Your Wedding Day is on " + month + " " + day;
+
+	tries.style.fontSize = "1.5rem";
+	tries.style.textAlign = "center";
+	tries.style.marginBottom = "1rem";
+
+	result.innerHTML = text + " ";
+	tries.innerHTML += count + " attempt: " + month + " " + day + "</br>";
 }
 function startOver() {
 	let result = document.getElementById("result");
-	result.innerHTML = " ";
+	result.innerHTML = "";
+	tries.innerHTML = "";
+	count = 0;
 }
