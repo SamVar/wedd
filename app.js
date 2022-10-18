@@ -4,22 +4,19 @@ var count = 0;
 
 function weddDay() {
 	count++;
-	let randomNumber = Math.floor(Math.random() * 5);
+	let randomNumber = Math.floor(Math.random() * 4);
 	var day = 0;
 	var month = "";
 	var text = "";
 	var date = "";
 
 	if (randomNumber == 0) {
-		day = 10;
-		month = "June";
-	} else if (randomNumber == 1) {
 		day = 17;
 		month = "June";
-	} else if (randomNumber == 2) {
+	} else if (randomNumber == 1) {
 		day = 24;
 		month = "June";
-	} else if (randomNumber == 3) {
+	} else if (randomNumber == 2) {
 		day = 1;
 		month = "July";
 	} else {
