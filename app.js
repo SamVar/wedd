@@ -41,16 +41,16 @@ function weddDay() {
 
 	text = "Your Wedding Day is on " + date;
 	result.style.color = "blue";
-	result.style.fontSize = "1.5rem";
+	result.style.fontSize = "1.6rem";
 
-	tries.style.fontSize = "1.5rem";
+	tries.style.fontSize = "1.6rem";
 	tries.style.textAlign = "center";
 	tries.style.marginBottom = "1rem";
 
-	total_June_17.style.fontSize = "1.3rem";
-	total_June_24.style.fontSize = "1.3rem";
-	total_July_1.style.fontSize = "1.3rem";
-	total_July_8.style.fontSize = "1.3rem";
+	total_June_17.style.fontSize = "1.4rem";
+	total_June_24.style.fontSize = "1.4rem";
+	total_July_1.style.fontSize = "1.4rem";
+	total_July_8.style.fontSize = "1.4rem";
 	total_July_8.style.marginBottom = "1.2rem";
 
 	result.innerHTML = text + " ";
