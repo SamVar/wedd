@@ -50,7 +50,6 @@ function weddDay() {
 	tries.innerHTML = "Total " + count + " attempts";
 }
 function startOver() {
-	let result = document.getElementById("result");
 	result.innerHTML = "";
 	tries.innerHTML = "";
 	total_June_17.innerHTML = "";
