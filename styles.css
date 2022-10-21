@@ -44,6 +44,7 @@ button:hover {
 .heart {
 	font-size: 3rem;
 }
+#total-June-10,
 #total-June-17,
 #total-July-1,
 #total-July-8,
@@ -93,6 +94,7 @@ button:hover {
 	#result {
 		font-size: 1.5rem !important;
 	}
+	#total-June-10,
 	#total-June-17,
 	#total-July-1,
 	#total-July-8,
